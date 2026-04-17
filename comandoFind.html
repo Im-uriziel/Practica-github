@@ -39,27 +39,23 @@
     <hr>
 
     <h2>-perm</h2>
-    <p>Busca archivos según permisos.</p>
+    <p>Filtra la busqueda de archivos por permisos.</p>
     <div class="ejemplo">find / -perm 777</div>
-    
     <hr>
 
-    <h2>-mtime</h2>
-    <p>Busca archivos modificados en un tiempo determinado.</p>
+    <h2>-mtime, -ctime o -atime</h2>
+    <p>Filtra la busqueda de archivos por marca de tiempo</p>
     <div class="ejemplo">find /home -mtime -7</div>
-
     <hr>
 
     <h2>-exec</h2>
     <p>Permite ejecutar comandos sobre los resultados.</p>
     <div class="ejemplo">find . -name "*.txt" -exec rm {} \;</div>
-
     <hr>
 
     <h2>-size</h2>
-    <p>Busca archivos por tamaño.</p>
+    <p>Filtra la busqueda de archivos por su tamaño</p>
     <div class="ejemplo">find / -size +100M</div>
-
     <br><br>
     <a href="menuComandos.html" style="color: lightblue;">Volver al menú</a>
 </body>
